@@ -1,0 +1,85 @@
+.outer{
+    border:1px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+.inner{
+    border:1px solid black;
+    margin: 20px;
+
+}
+.abs{
+    position: absolute;
+}
+.outer .inner{
+    background: cadetblue;
+
+}
+
+.outer:hover .inner{
+    background: chartreuse;
+    display: block;
+}
+
+.menu
+{
+    width: 370px;
+    margin: 0 auto;
+}
+
+.menu li{
+    list-style:none;
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: lightblue;
+}
+.menu li:hover{
+    background: gold;
+}
+
+.menu li:hover{
+    background: gold;
+}
+
+.sub-menu{
+    position: absolute;
+    display: none;
+    left: -40px;
+}
+
+.sub-sub-menu
+{
+    position: absolute;
+    display: none;
+    left: 65px;
+    top: 0px;
+}
+.sub-menu li{
+    width: 105px;
+    display: block;
+    background: gold;
+}
+
+.sub-menu li:hover{
+    background: violet;
+}
+
+.list-item{
+    position: relative;
+}
+.submenu-item
+{
+    position: relative;
+}
+.list-item:hover .sub-menu{
+    display: block;
+}
+
+.submenu-item:hover .sub-sub-menu
+{
+    display: block;
+}
